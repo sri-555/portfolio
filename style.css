@@ -148,12 +148,16 @@ nav a:nth-child(5):hover ~ span { left: 380px; }
   justify-content: flex-end;
 }
 
-.head2 img {max-width: 50%; /* Make sure the image is responsive */
-  height: auto;
+.head2 img {max-width: 100%; /* Make sure the image is responsive */
+  height: 500px;
   border-radius: 200px;
   box-shadow: 0 0 30px rgba(174, 63, 239, 0.5);
   transition: transform 0.3s ease;
 }
+img.dull {
+  filter: brightness(70%) contrast(80%) saturate(50%);
+}
+
 
 .head2 img:hover {
   transform: scale(1.05);
