@@ -149,8 +149,8 @@ nav a:nth-child(5):hover ~ span { left: 380px; }
 }
 
 .head2 img {max-width: 80%; /* Make sure the image is responsive */
-            margin-left:30%;
-  height: 400px;
+  margin-left:30%;
+  height: 300px;
   border-radius: 200px;
   box-shadow: 0 0 30px rgba(174, 63, 239, 0.5);
   transition: transform 0.3s ease;
